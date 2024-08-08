@@ -1,0 +1,186 @@
+.required::after {
+    content: " *";
+    color: red;
+    vertical-align: middle;
+}
+
+.alert--danger {
+    color: #ff0000;
+    margin: 5px;
+    font-size: 10px;
+}
+
+.name-first__alert--danger,
+.name-last__alert--danger,
+.gender__alert--danger,
+.email__alert--danger,
+.phone__alert--danger,
+.address__alert--danger,
+.building__alert--danger,
+.inquiry-type__alert--danger,
+.textarea__alert--danger {
+    color: #ff0000;
+    margin: 5px;
+    font-size: 10px;
+}
+
+
+
+
+
+
+.contact__title{
+    margin: 0 auto;
+    text-align: center;
+    max-width: 1230px;
+}
+
+h2{
+    color: #786950;
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+table{
+    margin: 0 auto;
+    text-align: center;
+    width: 70%;
+}
+
+.form{
+    display: flex;
+}
+
+.contact__form{
+    display: flex;
+    justify-content: space-around;
+}
+
+tr{
+    text-align: left;
+}
+
+td{
+    width: 60%;
+}
+
+.required,
+.building{
+    color: #786950;
+}
+
+.name{
+    display: flex;
+    justify-content: space-between;
+}
+
+.name_first--text{
+    width: 230px;
+    height: 30px;
+    padding: 0px 10px;
+}
+
+.name_last--text{
+    width: 230px;
+    height: 30px;
+    padding: 0px 10px;
+}
+
+input{
+    background-color: #f5f3f1;
+    border: none;
+}
+
+label{
+    color: #786950;
+    padding-right: 50px;
+}
+
+.radio{
+    accent-color: #786950;
+}
+
+.email--text{
+    width: 100%;
+    height: 30px;
+    padding: 0px 10px;
+}
+
+.tell--text{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tell::placeholder{
+    text-align: center;
+}
+
+.tell{
+    height: 30px;
+    padding: auto;
+}
+
+.address{
+    width: 100%;
+    height: 30px;
+    padding: 0px 10px;
+}
+
+.building_name{
+    width: 100%;
+    height: 30px;
+    padding: 0px 10px;
+}
+
+textarea{
+    background-color: #f5f3f1;
+    width: 100%;
+    height: 100px;
+    border: none;
+    resize: none;
+}
+
+.inquiry{
+    padding: 10px 10px;
+}
+
+
+.select_wrapper {
+    position: relative;
+}
+
+.select_wrapper::after {
+    content: "";
+    position: absolute;
+    top: 10px;
+    right: 300px;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-top: 10px solid #b5a487;
+    border-bottom: 0;
+    pointer-events: none;
+}
+
+.select{
+    background-color: #f5f3f1;
+    color: #786950;
+    width: 200px;
+    height: 30px;
+    border: none;
+    -webkit-appearance: none;
+    appearance: none;
+    padding: 0px 10px;
+}
+
+.confirmation__button{
+    width: 100%;
+    text-align: center;
+    margin: 30px auto;
+}
+
+.confirmation__button-submit{
+    background-color: #786950;
+    color: #ffff;
+    padding: 5px 25px;
+    font-size: 15px;
+}
